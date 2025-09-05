@@ -57,3 +57,83 @@ code --install-extension GitHub.copilot \
 --install-extension ms-python.debugpy \
 --install-extension ms-python.python-environment-manager \
 --install-extension ms-vscode.vscode-java-test
+
+
+
+
+
+
+
+
+# ⚡ VS Code Setup Backup  
+
+Easily restore my full **VS Code environment** (settings + extensions) on any computer.  
+No need to start from scratch — just copy settings and reinstall extensions. 🚀  
+
+---
+
+## 🛠️ My VS Code Settings  
+
+```json
+{
+    "code-runner.runInTerminal": true,
+    "code-runner.saveFileBeforeRun": true,
+    "workbench.startupEditor": "none",
+    "explorer.confirmDelete": false,
+    "C_Cpp.default.compilerPath": "",
+    "tabnine.experimentalAutoImports": true,
+    "debug.onTaskErrors": "debugAnyway",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "security.workspace.trust.untrustedFiles": "open",
+    "peacock.favoriteColors": [
+        { "name": "Angular Red", "value": "#dd0531" },
+        { "name": "Azure Blue", "value": "#007fff" },
+        { "name": "JavaScript Yellow", "value": "#f9e64f" },
+        { "name": "Mandalorian Blue", "value": "#1857a4" },
+        { "name": "Node Green", "value": "#215732" },
+        { "name": "React Blue", "value": "#61dafb" },
+        { "name": "Something Different", "value": "#832561" },
+        { "name": "Svelte Orange", "value": "#ff3d00" },
+        { "name": "Vue Green", "value": "#42b883" }
+    ],
+    "window.titleBarStyle": "custom",
+    "kilo-code.allowedCommands": [
+        "npm test",
+        "npm install",
+        "tsc",
+        "git log",
+        "git diff",
+        "git show"
+    ],
+    "editor.mouseWheelZoom": true,
+    "terminal.integrated.fontSize": 17,
+    "editor.cursorBlinking": "expand",
+    "editor.wordWrap": "on",
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.colorCustomizations": {},
+    "window.controlsStyle": "custom",
+    "editor.minimap.enabled": false,
+    "git.autofetch": true,
+    "editor.quickSuggestions": {
+        "comments": "on",
+        "strings": "inline"
+    },
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": true,
+        "markdown": true,
+        "scminput": true,
+        "python": true
+    },
+    "editor.quickSuggestionsDelay": 5,
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "animations.Install-Method": "Custom UI Style",
+    "animations.Enabled": true,
+    "animations.Command-Palette": "Slide",
+    "workbench.iconTheme": "material-icon-theme",
+    "redhat.telemetry.enabled": true,
+    "git.confirmSync": false
+}
+
+
+
